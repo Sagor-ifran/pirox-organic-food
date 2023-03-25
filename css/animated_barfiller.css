@@ -1,0 +1,52 @@
+.barfiller {
+  width: 100%;
+  height: 8px;
+  background: #dddddd;
+  /* border: 1px solid #ccc; */
+  position: relative;
+  border-radius: 30px;
+  /* margin-bottom: 20px; */
+  /* box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, .5); */
+  -moz-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, .5);
+}
+
+.barfiller .fill {
+  display: block;
+  position: relative;
+  width: 0px;
+  height: 100%;
+  background: var(--colorPrimary) !important;
+  z-index: 1;
+  border-radius: 30px;
+}
+
+.barfiller .tipWrap {
+  display: none;
+}
+
+.barfiller .tip {
+  position: absolute;
+  margin-top: -34px;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: var(--headingFont);
+  left: auto !important;
+  right: 0 !important;
+  z-index: 2;
+  background: #fff;
+  color: var(--colorPrimary);
+}
+
+
+.tf__single_progressbar {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.tf__single_progressbar p {
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--colorPrimary);
+  margin-top: 0 !important;
+  margin-bottom: 10px;
+}
