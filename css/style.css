@@ -252,6 +252,43 @@ button {
   height: 250px;
 }
 
+#tf__pagination {
+  margin-top: 50px;
+}
+
+#tf__pagination .page-item.active .page-link {
+  color: #fff;
+  background-color: var(--colorPrimary);
+  border-color: var(--colorPrimary);
+}
+
+#tf__pagination .page-link {
+  color: var(--colorPrimary);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  padding: 0;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 50%;
+  margin: 0px 5px;
+  border: 1px solid var(--colorPrimary);
+}
+
+#tf__pagination .page-link:hover {
+  z-index: 2;
+  color: #fff;
+  background-color: var(--colorPrimary);
+  border-color: var(--colorPrimary);
+}
+
+#tf__pagination .page-link:focus {
+  background-color: none;
+  outline: 0;
+  box-shadow: none;
+}
+
 /* ===========================
   GLOBAL CSS END
 =============================*/
@@ -2097,14 +2134,14 @@ button {
   padding: 75px 0px;
 }
 
-.tf__blog_dtls_leftside {}
-
 .tf__blog_dtls_leftside form {
   position: relative;
 }
 
 .tf__blog_dtls_leftside form input {
   border-radius: 0;
+  border: 1px solid #4743433b;
+  text-align: center;
 }
 
 .tf__blog_dtls_serchbox {
@@ -2123,15 +2160,24 @@ button {
   font-size: 24px;
   font-weight: 700;
   text-transform: capitalize;
-  border-bottom: 1px solid var(--colorBlack);
   margin-bottom: 20px;
+  position: relative;
+}
+
+.tf__blog_catagories h4::after {
+  position: absolute;
+  content: "";
+  width: 55px;
+  height: 1px;
+  background: var(--colorBlack);
+  left: 0;
+  bottom: -4px;
 }
 
 .tf__blog_single_catagories {
   display: flex;
   justify-content: space-between;
   margin-top: 12px;
-  ;
 }
 
 .tf__blog_single_catagories span i {
@@ -2141,7 +2187,6 @@ button {
 
 .tf__blog_single_catagories span {
   font-size: 17px;
-
 }
 
 .tf__blog_single_catagories a span:hover {
@@ -2161,7 +2206,6 @@ button {
 
 .tf__blog_single_catagories {
   font-size: 17px;
-
 }
 
 .tf_product_dtls {
@@ -2186,23 +2230,9 @@ button {
   -o-border-radius: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .blog_dtls_img {
   height: 400px;
 }
-
 
 .tf__blog_dtls_rightside ul {
   margin-top: 30px;
@@ -2214,7 +2244,7 @@ button {
   text-transform: capitalize;
   margin-left: 10px;
   padding-left: 10px;
-  border-left: 1px solid var(--paraColor);
+  border-left: 1px solid #4743433b;
 }
 
 .tf__blog_dtls_rightside ul li i {
@@ -2240,14 +2270,9 @@ button {
   line-height: 1.7;
 }
 
-
-
-
-
-
 .tf__product_info {
   padding: 50px 0px;
-  border-top: 1px solid var(--paraColor);
+  border-top: 1px solid #4743433b;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -2292,14 +2317,8 @@ button {
 .tf__product_discription {
   font-size: 17px;
   padding-bottom: 40px;
-  border-bottom: 1px solid var(--paraColor);
+  border-bottom: 1px solid #4743433b;
 }
-
-
-
-
-
-
 
 .tf_blog_comments {
   margin: 40px 0px 50px 0px;
@@ -2309,7 +2328,7 @@ button {
   display: flex;
   align-items: center;
   padding: 60px 0px;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #4743433b;
 }
 
 .tf_blog_comments h4 {
@@ -2351,34 +2370,26 @@ button {
   margin-left: 45px;
 }
 
+.tf__blog_detls_contact_form input {
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  border: 1px solid #4743433b;
+}
 
+.tf__blog_detls_contact_form textarea {
+  text-transform: capitalize;
+  padding-bottom: 85px;
+  border: 1px solid #4743433b;
+}
 
-.tf__blog_detls_contact {}
-
-.tf__blog_detls_contact input {}
-
-.tf__blog_detls_contact textarea {}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.tf__blog_detls_contact_form .blog_dtls_bton {
+  margin-top: 25px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
 
 /* ===========================
   BLOG_DTLS END
