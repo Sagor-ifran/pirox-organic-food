@@ -250,6 +250,7 @@ button {
 .tf__breadcumbs_img {
   width: 370px;
   height: 250px;
+  margin: auto;
 }
 
 #tf__pagination {
@@ -527,6 +528,12 @@ button {
 }
 
 .tf_drop_main_manu li a:hover {
+  color: var(--colorPrimary);
+  background: rgb(211 228 200 / 46%);
+  border-left: 5px solid var(--colorPrimary);
+}
+
+.tf_drop_main_manu li a.active {
   color: var(--colorPrimary);
   background: rgb(211 228 200 / 46%);
   border-left: 5px solid var(--colorPrimary);
@@ -1908,8 +1915,16 @@ button {
   margin-right: 5px;
 }
 
-.tf__service_dtls_pageination :hover {
+.tf__service_dtls_pageination:hover {
   background: var(--colorPrimary);
+}
+
+.tf__service_dtls_pageination h4:hover {
+  color: var(--colorWhite);
+}
+
+.tf__service_dtls_pageination h4 span:hover {
+  color: var(--colorWhite) !important;
 }
 
 .tf__service_dtls_video {
