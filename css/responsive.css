@@ -8,4 +8,182 @@
 
 @media (min-width: 576px) and (max-width: 767.99px) {}
 
-@media (max-width: 575.99px) {}
+@media (max-width: 575.99px) {
+
+    /* ===========================
+  HOME start
+=============================*/
+
+    .tf__topbar_icon li a {
+        width: 24px;
+        height: 24px;
+        line-height: 26px;
+        font-size: 10px;
+        margin-right: 5px;
+    }
+
+
+
+
+
+    .tf_main_manu {
+        height: 62px;
+    }
+
+    .tf_main_manu .navbar-brand {
+        width: 100px;
+    }
+
+
+
+    .tf_banner_text h3 {
+        font-size: 20px;
+    }
+
+    .tf_banner_text h1 {
+        font-size: 30px;
+    }
+
+    .tf_banner_text p {
+        font-size: 16px;
+    }
+
+    .tf_common_btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .tf_about_img {
+        height: 220px;
+        width: 220px;
+        margin: auto;
+    }
+
+    .tf_common_heading h3 {
+        font-size: 18px;
+    }
+
+    .tf_common_heading h1 {
+        font-size: 24px;
+    }
+
+    .play_btn {
+        width: 40px;
+        height: 40px;
+        line-height: 36px;
+    }
+
+
+
+
+
+    .tf_service {
+        padding: 50px 0px 30px 0px;
+    }
+
+    .tf_common_heading2 h3 {
+        font-size: 18px;
+    }
+
+
+    .tf_common_heading2 h1 {
+        font-size: 24px;
+    }
+
+    .tf_service_img {
+        height: 180px;
+    }
+
+    .tf_service_heading span {
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+
+    .tf_service_heading {
+        font-size: 18px;
+        padding-left: 54px;
+    }
+
+    .tf_service_text p {
+        font-size: 16px;
+    }
+
+    .tf_service_text .link {
+        width: 46px;
+        height: 30px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+
+
+
+
+
+
+
+    .tf_featured {
+        padding: 50px 0px 30px 0px;
+    }
+
+    .tf_featured_img {
+        height: 170px;
+    }
+
+
+    .tf_frtd_heading {
+        font-size: 18px;
+    }
+
+    .tf_featured_text .price {
+        font-size: 16px;
+    }
+
+
+    /* ===========================
+  HOME END
+=============================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* ===========================
+  HOME start
+=============================*/
+    /* ===========================
+  HOME END
+=============================*/
+}

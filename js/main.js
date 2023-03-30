@@ -21,5 +21,7 @@ $(function () {
     });
 
 
+    new WOW().init();
+
 
 });

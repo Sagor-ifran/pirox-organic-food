@@ -307,7 +307,6 @@ button {
   left: 0px;
   width: 100%;
   z-index: 999;
-  /* line-height: 50px; */
 }
 
 .tf__topbar_icon {
@@ -665,10 +664,7 @@ button {
 
 /* banner end */
 
-
 /* about start */
-.tf_about_text {}
-
 .tf_about_img {
   height: 660px;
 }
@@ -998,7 +994,6 @@ button {
 
 
 /* offer start */
-
 .tf_timeline {
   background-size: cover !important;
   background-repeat: no-repeat !important;
@@ -1051,7 +1046,6 @@ button {
 
 
 /* team start */
-
 .tf_team {
   padding: 70px 0px 78px 0px;
 }
@@ -1455,7 +1449,6 @@ button {
   padding-top: 75px;
 }
 
-
 .tf_footer_address {
   margin-top: 15px;
 }
@@ -1581,7 +1574,6 @@ button {
   color: var(--colorWhite);
 }
 
-
 .tf_copyrite {
   background: var(--colorPrimary);
   padding: 20px 0px;
@@ -1617,11 +1609,9 @@ button {
 =============================*/
 
 
-
 /* ===========================
   ERRORE PAGE START
 =============================*/
-
 .tf_errore {
   padding: 75px 0px;
 }
@@ -1636,12 +1626,9 @@ button {
 =============================*/
 
 
-
-
 /* ===========================
   CONTACT PAGE START
 =============================*/
-
 .tf__contact {
   padding: 75px 0px;
 }
@@ -1651,7 +1638,6 @@ button {
   background-repeat: no-repeat !important;
   background-position: center !important;
   position: relative;
-
 }
 
 .contact_img {
@@ -1678,9 +1664,6 @@ button {
   margin: 5px 0px 50px 0px;
   color: var(--colorWhite);
 }
-
-
-
 
 .single_input {
   margin-bottom: 30px;
@@ -1716,12 +1699,12 @@ button {
   CONTACT PAGE END
 =============================*/
 
+
 /* ===========================
   ABOUT  START
 =============================*/
 
 /* counter start */
-
 .tf__counter {
   background-size: cover !important;
   background-repeat: no-repeat !important;
@@ -1794,8 +1777,6 @@ button {
 
 /* counter end */
 
-
-
 /* contact start */
 .tf__about_contact {
   background-size: cover !important;
@@ -1818,9 +1799,7 @@ button {
 
 /* contact end */
 
-
 /* food_video start */
-
 .tf__food_video {
   margin: 75px 0px;
 }
@@ -1860,18 +1839,12 @@ button {
 =============================*/
 
 
-
-
 /* ===========================
   SERVICE_DTLS START
 =============================*/
-
 .tf__service_dtls {
   padding: 75px 0px;
 }
-
-
-.tf__service_dtls_text {}
 
 .tf__service_dtls_text h3 {
   font-size: 24px;
@@ -1890,7 +1863,6 @@ button {
 .tf__service_dtls_img {
   margin-bottom: 40px;
 }
-
 
 .tf__service_dtls_pageination {
   border: 1px solid #4f515733;
@@ -1963,7 +1935,6 @@ button {
 /* ===========================
   PRODUCT_DTLS START
 =============================*/
-
 .tf__product_dtls {
   padding: 75px 0px 45px 0px;
 }
@@ -2061,7 +2032,6 @@ button {
   border: 1px solid #9e959552;
 }
 
-
 .tf__product_dtls_pagination .tab-content .tab-pane p {
   font-size: 18px;
   margin: 10px 0px;
@@ -2076,7 +2046,6 @@ button {
 /* ===========================
   TEAM_DTLS START
 =============================*/
-
 .tf__team_dtls {
   padding: 75px 0px 0px 0px;
 }
@@ -2139,12 +2108,9 @@ button {
 =============================*/
 
 
-
-
 /* ===========================
   BLOG_DTLS START
 =============================*/
-
 .tf__blog_dtls {
   padding: 75px 0px;
 }
