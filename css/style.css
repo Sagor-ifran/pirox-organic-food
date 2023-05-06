@@ -437,6 +437,10 @@ button {
   line-height: 90px;
 }
 
+.tf_main_manu .navbar-nav .nav-item {
+  position: relative;
+}
+
 .tf_main_manu .navbar-nav .nav-item .nav-link {
   font-size: 19px;
   font-weight: 500;
@@ -481,6 +485,7 @@ button {
   position: absolute;
   width: 230px;
   top: 115%;
+  left: 0;
   background: var(--colorWhite);
   max-height: 450px;
   overflow: hidden;
@@ -488,6 +493,7 @@ button {
   box-shadow: rgb(0 0 0 / 15%) 0px 4px 14px;
   padding-left: 0;
   opacity: 0;
+  z-index: 99;
   visibility: hidden;
   transition: all linear .3s;
   -webkit-transition: all linear .3s;
@@ -665,6 +671,10 @@ button {
 /* banner end */
 
 /* about start */
+.tf_about {
+  padding: 75px 0px;
+}
+
 .tf_about_img {
   height: 660px;
 }
@@ -1644,6 +1654,8 @@ button {
   position: absolute;
   top: 120px;
   right: -290px;
+  width: 570px;
+  height: 725px;
 }
 
 .contact_overly {
@@ -1808,20 +1820,13 @@ button {
   width: 200px;
   height: 100%;
   background: #aac696;
-  position: relative;
+
 }
 
 .tf_food_video_img {
   width: 400px;
   height: 400px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: 100px !important;
-  -webkit-border-radius: 100px !important;
-  -moz-border-radius: 100px !important;
-  -ms-border-radius: 100px !important;
-  -o-border-radius: 100px !important;
+
 }
 
 .tf__food_video_text {
@@ -1833,7 +1838,6 @@ button {
 }
 
 /* food_video end */
-
 /* ===========================
   ABOUT END
 =============================*/
@@ -1862,6 +1866,10 @@ button {
 
 .tf__service_dtls_img {
   margin-bottom: 40px;
+}
+
+.tf__service_dtls_single_img {
+  height: 240px;
 }
 
 .tf__service_dtls_pageination {
@@ -2051,7 +2059,6 @@ button {
 }
 
 .tf__team_img {
-  width: 370px;
   height: 430px;
 }
 
